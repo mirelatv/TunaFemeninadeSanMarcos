@@ -1,0 +1,114 @@
+
+
+body{
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  text-align: justify;
+}
+
+.title{
+  
+  padding-top: 4vh; 
+  font-size: 5vh;
+  color: #d79f7f;
+  
+}
+
+.title:hover{
+  color: rgb(153, 25, 25);
+}
+
+.caja:hover{
+  color: white;
+}
+header {
+  background-color: black
+}
+
+.rounded {
+  width: 7%;
+}
+
+ ul li{
+   padding-bottom: 3vh;
+   
+ }
+ 
+
+
+li a{
+  color: white; 
+ }
+
+ul li  a:hover {
+  color: #d79f7f;
+}
+
+.granate{
+
+  background: rgb(109, 26, 26);
+}
+/* CAROUSEL*/
+
+
+ 
+
+/* SECTION INFRMATIVA */
+
+.reseña{
+  color:rgb(109, 26, 26);
+
+}
+
+.textReseña{
+  text-align: justify;
+  align-content: center;
+  line-height: 2.5rem;
+}
+
+.vision{
+  background-image: url("../assets/images/tunante.jpg");
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: auto; 
+  
+  
+}
+
+.titleVision{
+  color: #d79f7f;
+}
+
+.textVision{
+  text-align: justify;
+  line-height: 6vh;
+  letter-spacing:0.2rem;
+  padding: 4rem;
+
+}
+
+/* Section de Impacto*/
+
+.imagesImpacto{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+#display{
+  display: none;
+
+}
+
+
+
+/* footer*/
+
+.footer{
+  background-image: url("../assets/images/footer.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
