@@ -86,7 +86,7 @@ $(window).scroll(function () {
 )
 /*funcion para que el hover  en fondo granate  sea blanco*/
 $(window).scroll(function () {
-  if ($("#caja").offset().top > 160) {
+  if ($("#caja") && $("#caja").offset().top > 160) {
     $("#caja").show("slow").addClass("caja");
   } else {
     $("#caja").removeClass("caja");
